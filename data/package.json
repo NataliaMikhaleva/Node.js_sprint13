@@ -1,0 +1,30 @@
+{
+  "name": "nataliamikhaleva.github.io-node.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NataliaMikhaleva/nataliamikhaleva.github.io-Node.JS.git"
+  },
+  "author": "Natalia Mikhaleva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NataliaMikhaleva/nataliamikhaleva.github.io-Node.JS/issues"
+  },
+  "homepage": "https://github.com/NataliaMikhaleva/nataliamikhaleva.github.io-Node.JS#readme",
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-react": "^7.20.5",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
