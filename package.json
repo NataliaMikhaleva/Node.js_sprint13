@@ -13,6 +13,7 @@
     "picomatch": "^2.2.2",
     "prepend-http": "^2.0.0",
     "pump": "^3.0.0",
+    "validator": "^13.1.1",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
@@ -21,8 +22,7 @@
     "eslint": "^7.6.0",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.22.0",
-    "nodemon": "^2.0.4",
-    "validator": "^13.1.1"
+    "nodemon": "^2.0.4"
   },
   "scripts": {
     "start": "nodemon app.js"

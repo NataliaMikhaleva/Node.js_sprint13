@@ -17,10 +17,14 @@ module.exports.getUsers = ((req, res) => {
 module.exports.getUserId = ((req, res) => {
   User.findById(req.params.id)
     .then((user) => {
+      if (!user.length) {
+        res.status(404).send({ message: 'Нет такого пользователя' });
+        return;
+      }
       res.send({ data: user });
     })
     .catch(() => {
-      res.status(404).send({ message: 'Запрашиваемый ресурс не найден' });
+      res.status(404).send({ message: 'Невалидные данные' });
     });
 });
 
@@ -32,6 +36,6 @@ module.exports.createUser = ((req, res) => {
     })
     .catch(() => {
       console.log(req.body);
-      res.status(500).send({ message: 'Произошла ошибка' });
+      res.status(500).send({ message: 'Невалидные данные' });
     });
 });

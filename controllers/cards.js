@@ -22,17 +22,16 @@ module.exports.createCard = ((req, res) => {
       res.send({ data: card });
     })
     .catch(() => {
-      res.status(500).send({ message: 'Произошла ошибка' });
+      res.status(404).send({ message: 'Невалидные данные' });
     });
 });
 
 module.exports.deleteCard = ((req, res) => {
   Card.findByIdAndRemove(req.body._id)
-
     .then((card) => {
       res.send({ data: card });
     })
     .catch(() => {
-      res.status(500).send({ message: 'Произошла ошибка' });
+      res.status(404).send({ message: 'Невалидные данные' });
     });
 });
