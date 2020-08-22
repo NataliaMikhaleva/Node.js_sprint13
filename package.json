@@ -1,30 +1,40 @@
 {
-  "name": "nataliamikhaleva.github.io-node.js",
+  "name": "node.js_sprint13",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "scripts": {
-    "start": "nodemon app.js",
-    "dev": "nodemon app.js"
+  "dependencies": {
+    "anymatch": "^3.1.1",
+    "body-parser": "^1.19.0",
+    "eslint-plugin-react": "^7.20.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.28",
+    "p-cancelable": "^1.1.0",
+    "picomatch": "^2.2.2",
+    "prepend-http": "^2.0.0",
+    "pump": "^3.0.0",
+    "validator": "^13.1.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/NataliaMikhaleva/nataliamikhaleva.github.io-Node.JS.git"
-  },
-  "author": "Natalia Mikhaleva",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/NataliaMikhaleva/nataliamikhaleva.github.io-Node.JS/issues"
-  },
-  "homepage": "https://github.com/NataliaMikhaleva/nataliamikhaleva.github.io-Node.JS#readme",
   "devDependencies": {
     "eslint": "^7.6.0",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-react": "^7.20.5",
     "nodemon": "^2.0.4"
   },
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NataliaMikhaleva/Node.js_sprint13.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NataliaMikhaleva/Node.js_sprint13/issues"
+  },
+  "homepage": "https://github.com/NataliaMikhaleva/Node.js_sprint13#readme"
 }
